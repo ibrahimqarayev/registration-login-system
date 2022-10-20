@@ -1,7 +1,7 @@
-package com.ibrahimqarayev.service;
+package com.ibrahimqarayev.bussiness.services;
 
-import com.ibrahimqarayev.dto.UserDto;
-import com.ibrahimqarayev.entity.User;
+import com.ibrahimqarayev.bussiness.dto.UserDto;
+import com.ibrahimqarayev.data.entity.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
