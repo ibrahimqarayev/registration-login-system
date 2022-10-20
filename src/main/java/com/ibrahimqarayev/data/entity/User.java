@@ -1,4 +1,4 @@
-package com.ibrahimqarayev.entity;
+package com.ibrahimqarayev.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
