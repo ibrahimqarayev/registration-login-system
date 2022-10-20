@@ -1,6 +1,6 @@
-package com.ibrahimqarayev.repository;
+package com.ibrahimqarayev.data.repository.repository;
 
-import com.ibrahimqarayev.entity.User;
+import com.ibrahimqarayev.data.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,Long> {
