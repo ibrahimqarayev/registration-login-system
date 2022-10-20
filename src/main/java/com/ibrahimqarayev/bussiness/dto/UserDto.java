@@ -1,4 +1,4 @@
-package com.ibrahimqarayev.dto;
+package com.ibrahimqarayev.bussiness.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
