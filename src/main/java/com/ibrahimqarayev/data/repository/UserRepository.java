@@ -1,4 +1,4 @@
-package com.ibrahimqarayev.data.repository.repository;
+package com.ibrahimqarayev.data.repository;
 
 import com.ibrahimqarayev.data.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
