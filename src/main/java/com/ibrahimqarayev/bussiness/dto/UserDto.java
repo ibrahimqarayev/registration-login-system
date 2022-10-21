@@ -12,20 +12,16 @@ import javax.validation.constraints.NotEmpty;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class UserDto {
-
     private Long id;
     @NotEmpty
     private String firstName;
     @NotEmpty
     private String lastName;
-    @NotEmpty(message = "Email bosh ola bilmez")
+    @NotEmpty(message = "Email should not be empty")
     @Email
     private String email;
-    @NotEmpty(message = "Shifre bosh ola bilmez")
+    @NotEmpty(message = "Password should be empty")
     private String password;
-
-
 
 }
